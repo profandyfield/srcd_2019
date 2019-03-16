@@ -22,10 +22,10 @@ library(here)
 library(kableExtra)
 library(tidyverse)
 
-mod_sum <- here("presentations/models/peer_mod_sum.csv") %>%
+mod_sum <- here("/models/peer_mod_sum.csv") %>%
   read_csv()
 
-# here("presentations/models/peer_models.rda") %>% attach()
+# here("/models/peer_models.rda") %>% attach()
 
 # summary(agg_mod)
 
@@ -361,9 +361,7 @@ class: inverse
 
 
 .footnote[
-Slides created via the R package [xaringan](https://github.com/yihui/xaringan).
-
-The chakra comes from [remark.js](https://remarkjs.com), [knitr](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
+Slides created via the R package [xaringan](https://github.com/yihui/xaringan). The chakra comes from [remark.js](https://remarkjs.com), [knitr](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
 ]
 
 ```{r, eval=FALSE}
